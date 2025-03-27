@@ -9,7 +9,13 @@
     <version>1.0</version>
 
     <name>Fixed Width Format for Java</name>
-    <description>API that takes a Java DTO/POJO/BEAN and generates fixed width format string using an annotation based configuration</description>
+    <description>
+        official fixed width format string generator for java.
+        API that takes a Java DTO/POJO/BEAN and generates fixed width format string using an annotation based configuration.
+        Supports flat, nested, inherited Java DTO/POJO/BEAN, both lombok as well non-lombok instances.
+        Supports arbitrary levels of nesting and arbitrary levels of inheritance.
+        Uses standard depth first traversal algorithmic technique to generate fixed width strings.
+    </description>
     <url>https://github.com/ossdbh/fwfmt4j</url>
 
     <licenses>

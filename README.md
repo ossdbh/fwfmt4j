@@ -27,9 +27,11 @@ The framework/API is very tiny and only a 100 lines of source code generates for
 
 The framework/API installs with the following maven groupId, artifactId and version
 ```
-    <groupId>io.github.ossdbh</groupId>
-    <artifactId>fwfmt4j</artifactId>
-    <version>1.0-java8</version>
+    <dependency>
+        <groupId>io.github.ossdbh</groupId>
+        <artifactId>fwfmt4j</artifactId>
+        <version>1.0</version>
+    </dependency>
 ```
 
 ### Annotations
