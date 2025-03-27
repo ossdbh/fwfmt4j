@@ -19,13 +19,15 @@ The framework/API is very tiny and only a 100 lines of source code generates for
 
 ### Build workspace
 - git clone this repository, the current active branch is develop
-  - git clone -b develop https://github.com/dhruvbiswas1980/fwfmt4j.git
+  - git clone -b develop https://github.com/ossdbh/fwfmt4j.git
+  - you would need a personal access token to checkout the source code
+  - else you can download a zip version of the workspace
 - Run the following command to build and install the framework/API on your local
   - mvn clean install
 
 The framework/API installs with the following maven groupId, artifactId and version
 ```
-    <groupId>io.github.dhruvbiswas1980</groupId>
+    <groupId>io.github.ossdbh</groupId>
     <artifactId>fwfmt4j</artifactId>
     <version>1.0-java8</version>
 ```
@@ -47,7 +49,7 @@ To use the framework/API kindly add the following dependency into your source po
 
 ```
          <dependency>
-            <groupId>io.github.dhruvbiswas1980</groupId>
+            <groupId>io.github.ossdbh</groupId>
             <artifactId>fwfmt4j</artifactId>
             <version>1.0-java8</version>
         </dependency>
@@ -177,7 +179,7 @@ Kindly refer to the following unit test that explains various scenarios as far a
 and default value is concerned and what is supported and what is not
 
 ```
-src/test/java/io/github/dhruvbiswas1980/format/dto/test/MixedDTO.java
+src/test/java/io/github/ossdbh/format/dto/test/MixedDTO.java
 ```
 
 At a future date the framework/API may be extended to address the gaps mentioned
@@ -287,8 +289,8 @@ The framework/API also supports non lombok BEAN/POJO/DTOs that are flat, nested 
 Kindly refer to the following unit tests to check on example usage
 
 ```
-src/test/java/io/github/dhruvbiswas1980/format/generator/test/CustomGetterDTOTest.java
-src/test/java/io/github/dhruvbiswas1980/format/generator/test/CustomGetterInheritanceDTOTest.java
+src/test/java/io/github/ossdbh/format/generator/test/CustomGetterDTOTest.java
+src/test/java/io/github/ossdbh/format/generator/test/CustomGetterInheritanceDTOTest.java
 ```
 
 ### Future Work
