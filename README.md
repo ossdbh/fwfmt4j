@@ -51,10 +51,10 @@ To use the framework/API kindly add the following dependency into your source po
 
 ```
          <dependency>
-            <groupId>io.github.ossdbh</groupId>
-            <artifactId>fwfmt4j</artifactId>
-            <version>1.0-java8</version>
-        </dependency>
+             <groupId>io.github.ossdbh</groupId>
+             <artifactId>fwfmt4j</artifactId>
+             <version>1.0</version>
+         </dependency>
 ```
 
 Here is a sample nested BEAN/POJO/DTO configured using fwfmt4j annotations
